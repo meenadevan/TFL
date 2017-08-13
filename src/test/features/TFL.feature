@@ -6,7 +6,7 @@ Feature: plan a journey
     When  i enter "<From>" as source
     And i enter "<To>" as destination
     And i click on plan my journey button
-#    Then i should see "JOURNEY RESULTS"
+    Then i should see "JOURNEY RESULTS"
 #    And I should see "<From>" in From field
 #    And I should see "<To>" in To field
 #    And I should see "Edit journey" hyperlink
